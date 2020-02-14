@@ -27,7 +27,7 @@ setup(
     classifiers=[],
     keywords="",
     packages=find_packages(exclude=["tests"]),
-    package_data={app_module: []},
+    package_data={"app": []},
     install_requires=requirements_list,
-    entry_points={"console_scripts": [f"app_run=app.__main__"],},
+    entry_points={"console_scripts": [f"app=app.__main__"],},
 )
