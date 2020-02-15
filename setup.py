@@ -18,7 +18,7 @@ with open(path.join(here, "requirements.txt"), encoding="utf-8") as requirements
     ]
 
 setup(
-    name="app",
+    name="__APP__",
     version="0.0.1",
     description=long_description,
     url="",

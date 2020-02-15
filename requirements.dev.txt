@@ -1,2 +1,2 @@
 # Packages needed at development time
-mock
+coverage
